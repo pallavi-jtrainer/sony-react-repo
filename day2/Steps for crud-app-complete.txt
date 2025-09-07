@@ -1,0 +1,26 @@
+Steps for crud-app-complete
+1. create react application using vite
+npx create-vite@latest react-app-complete
+
+2. cd into the application folder
+cd react-app-complete
+
+3. install the node_modules
+npm i
+
+4. install bootstrap, axios and json-server
+npm i bootstrap axios json-server
+
+5. create and place db.json in the root of your application.
+ 
+6. complete writing the code.
+
+7. start the json server with the following command
+json-server --watch db.json --port 8090
+
+Note: port is the developers specification.
+
+8. start the react dev server
+npm run dev
+
+9. test the code

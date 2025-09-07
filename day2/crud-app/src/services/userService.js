@@ -16,3 +16,11 @@ export function registerNewUser(user) {
 export function getUserDetails(id) {
     return http.get(`/users/${id}`)
 }
+
+export const updateUser = (id, user) => {
+    return http.put(`/users/${id}`, user);
+}
+
+export const deleteUser = (id) => {
+    http.delete(`/users/${id}`)
+}
